@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEE28C4B2DDB117800B6C078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE28C412DDB117800B6C078 /* AppDelegate.swift */; };
+		BEE28C4C2DDB117800B6C078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE28C482DDB117800B6C078 /* SceneDelegate.swift */; };
+		BEE28C4D2DDB117800B6C078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE28C492DDB117800B6C078 /* ViewController.swift */; };
+		BEE28C4E2DDB117800B6C078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE28C422DDB117800B6C078 /* Assets.xcassets */; };
+		BEE28C502DDB117800B6C078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE28C452DDB117800B6C078 /* LaunchScreen.storyboard */; };
+		BEE28C512DDB117800B6C078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE28C472DDB117800B6C078 /* Main.storyboard */; };
+		BEE28C532DDB11B600B6C078 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BEE28C522DDB11B600B6C078 /* Shader.metal */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BEE28C292DDB116B00B6C078 /* GPU Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPU Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE28C412DDB117800B6C078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEE28C422DDB117800B6C078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE28C432DDB117800B6C078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE28C442DDB117800B6C078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEE28C462DDB117800B6C078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE28C482DDB117800B6C078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEE28C492DDB117800B6C078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEE28C522DDB11B600B6C078 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEE28C3B2DDB116D00B6C078 /* Exceptions for "GPU Animation" folder in "GPU Animation" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEE28C282DDB116B00B6C078 /* GPU Animation */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEE28C2B2DDB116B00B6C078 /* GPU Animation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEE28C3B2DDB116D00B6C078 /* Exceptions for "GPU Animation" folder in "GPU Animation" target */,
-			);
-			path = "GPU Animation";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEE28C262DDB116B00B6C078 /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		BEE28C202DDB116B00B6C078 = {
 			isa = PBXGroup;
 			children = (
-				BEE28C2B2DDB116B00B6C078 /* GPU Animation */,
+				BEE28C4A2DDB117800B6C078 /* GPU Animation */,
 				BEE28C2A2DDB116B00B6C078 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,21 @@
 				BEE28C292DDB116B00B6C078 /* GPU Animation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE28C4A2DDB117800B6C078 /* GPU Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BEE28C412DDB117800B6C078 /* AppDelegate.swift */,
+				BEE28C422DDB117800B6C078 /* Assets.xcassets */,
+				BEE28C432DDB117800B6C078 /* Info.plist */,
+				BEE28C452DDB117800B6C078 /* LaunchScreen.storyboard */,
+				BEE28C472DDB117800B6C078 /* Main.storyboard */,
+				BEE28C482DDB117800B6C078 /* SceneDelegate.swift */,
+				BEE28C492DDB117800B6C078 /* ViewController.swift */,
+				BEE28C522DDB11B600B6C078 /* Shader.metal */,
+			);
+			path = "GPU Animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BEE28C2B2DDB116B00B6C078 /* GPU Animation */,
 			);
 			name = "GPU Animation";
 			packageProductDependencies = (
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE28C4E2DDB117800B6C078 /* Assets.xcassets in Resources */,
+				BEE28C502DDB117800B6C078 /* LaunchScreen.storyboard in Resources */,
+				BEE28C512DDB117800B6C078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +144,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE28C532DDB11B600B6C078 /* Shader.metal in Sources */,
+				BEE28C4B2DDB117800B6C078 /* AppDelegate.swift in Sources */,
+				BEE28C4C2DDB117800B6C078 /* SceneDelegate.swift in Sources */,
+				BEE28C4D2DDB117800B6C078 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEE28C452DDB117800B6C078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE28C442DDB117800B6C078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE28C472DDB117800B6C078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE28C462DDB117800B6C078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEE28C3D2DDB116D00B6C078 /* Debug */ = {
