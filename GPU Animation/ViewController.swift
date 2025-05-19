@@ -100,13 +100,13 @@ extension ViewController: MTKViewDelegate {
 
 // Others Animation :
 /*
- 🔁 1. Wavy/oscillating motion
+  1. Wavy/oscillating motion
  drag = SIMD2<Float>(
  Float(180 + sin(angle * 2) * 100),
  Float(180)
  )
  
- 🎯 2. Linear back-and-forth motion
+  2. Linear back-and-forth motion
  drag = SIMD2<Float>(
  Float(180 + sin(angle) * 100),
  Float(180)
@@ -119,17 +119,17 @@ extension ViewController: MTKViewDelegate {
  )
  
  
- 🌪️ 3. Spiral motion
+  3. Spiral motion
  let radius = angle * 10
  drag = SIMD2<Float>(
  Float(180 + cos(angle) * radius),
  Float(180 + sin(angle) * radius)
  )
  
- 💥 4. Pulsing center effect (no movement, but intensity changes)
+  4. Pulsing center effect (no movement, but intensity changes)
  intensity = 0.02 + 0.01 * sin(angle * 4)
  
- 🔳 5. Random glitchy effect
+  5. Random glitchy effect
  drag = SIMD2<Float>(
  Float(arc4random_uniform(360)),
  Float(arc4random_uniform(360))
